@@ -1,0 +1,9 @@
+# 统一换行符，避免跨平台 diff 噪音
+* text=auto eol=lf
+
+# HTML / MD / LICENSE 一律 LF
+*.html text eol=lf
+*.md   text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+LICENSE text eol=lf
